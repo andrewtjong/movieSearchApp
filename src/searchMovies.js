@@ -31,7 +31,7 @@ export default function SearchMovies() {
         <form className="form" onSubmit={searchMovies}>
         <label htmlFor="query" className="label">Movie</label>
         <input className="input" type="text" name="query"
-        placeholder="i.e. Donnie Brasco"
+        placeholder="Search for your movie"
         value={query} onChange={onChangeHandler}
         />
         <button className="button" type="submit">Search</button>
